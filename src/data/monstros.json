@@ -19,5 +19,26 @@
       "Sem muitas informações no momento"
     ],
     "combate": "Ferozes, possuem ataques de garras e mordida."
+  },
+  {
+    "numero": 2,
+    "nome": "Ocultista — Culto Tussantar",
+    "nome_curto": "Ocultista — Culto Tussantar",
+    "imagem": "images/ocultista.png",
+    "flavor": "Apóstatas do deus polvo Tussantar. Sacerdotes fanáticos que servem forças obscuras do mar e do culto.",
+    "pv": 5,
+    "fraquezas": [
+      "Humanoide sem imunidades especiais",
+      "Sem resistência a tipos de dano específicos"
+    ],
+    "habilidades": [
+      "Escuridão",
+      "Santuário",
+      "Causar Ferimentos (em substituição às magias acima)"
+    ],
+    "onde_encontrar": [
+      "Sem muitas informações no momento"
+    ],
+    "combate": "Atacam em grupos."
   }
 ]
