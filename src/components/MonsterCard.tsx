@@ -32,7 +32,7 @@ export function MonsterCard({ monster }: MonsterCardProps) {
       <div className="monster-columns">
         <div className="monster-column monster-column-left">
           <img
-            src={monster.imagem}
+            src={`${import.meta.env.BASE_URL}${monster.imagem}`}
             alt={monster.nome}
             className="monster-image"
           />

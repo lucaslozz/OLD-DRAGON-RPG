@@ -3,7 +3,7 @@
     "numero": 1,
     "nome": "Licantropo — Homem-Lobo (Lobisomem)",
     "nome_curto": "Homem-Lobo",
-    "imagem": "/images/lobisomem.png",
+    "imagem": "images/lobisomem.png",
     "flavor": "Também conhecidos como Lobisomem, são de longe os Licantropos mais comuns e ferozes conhecidos.",
     "pv": 20,
     "fraquezas": [
