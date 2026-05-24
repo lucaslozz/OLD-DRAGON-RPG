@@ -9,5 +9,4 @@ export interface Monster {
   habilidades: string[];
   onde_encontrar: string[];
   combate: string;
-  notas_jogador: string;
 }

@@ -8,23 +8,16 @@
     "pv": 20,
     "fraquezas": [
       "Imune a armas não mágicas quando transformado",
-      "Armas mágicas, magia e prata causam dano normal",
+      "Armas mágicas, magia, prata e fogo causam dano normal",
       "Evita armaduras que impeçam a transformação",
-      "Licantropia pode ser curada com Curar Doenças ou morte do licantropo causador"
+      "Licantropia pode ser curada com Curar Doenças ou morte do licantropo causador, para infectados antes da primeira transformação (próxima lua cheia). Caso já tenha se transformado, a magia Curar Doenças precisa ser fortificada com uma poção que usa sangue de troll e uma flor do meio-dia (cresce de petrificações de basiliscos)"
     ],
     "habilidades": [
-      "Convocar 1d3 lobos (chegam em 1d4 rodadas; moral dos lobos = 9)",
-      "Transformação: 1 rodada (humana → monstruosa → animal)",
-      "Ao morrer, reverte sempre à forma humana"
+      "Pode convocar lobos para ajudar"
     ],
     "onde_encontrar": [
-      "Habitat: qualquer região",
-      "Colinas (2º–5º nível): encontro na tabela de colinas",
-      "Florestas: grandes bandos (alcateia)",
-      "Cidades: becos escuros, em grupos menores",
-      "Rivais conhecidos como Homobos (lobos que viram homens)"
+      "Sem muitas informações no momento"
     ],
-    "combate": "Atacam em grupos como alcateia. Recuam se em desvantagem. Os urbanos preferem emboscadas em becos.",
-    "notas_jogador": ""
+    "combate": "Ferozes, possuem ataques de garras e mordida."
   }
 ]

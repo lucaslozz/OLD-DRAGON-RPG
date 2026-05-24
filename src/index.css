@@ -143,11 +143,6 @@ body {
   margin-bottom: 0.25rem;
 }
 
-.monster-notes {
-  color: #5c4033;
-  font-style: italic;
-}
-
 @media (max-width: 720px) {
   .monster-columns {
     grid-template-columns: 1fr;

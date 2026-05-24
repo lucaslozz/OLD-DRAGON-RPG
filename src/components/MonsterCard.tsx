@@ -19,10 +19,6 @@ interface MonsterCardProps {
 }
 
 export function MonsterCard({ monster }: MonsterCardProps) {
-  const notas =
-    monster.notas_jogador.trim() ||
-    "Espaço para suas anotações de campanha.";
-
   return (
     <article className="monster-card">
       <h2 className="monster-title">
@@ -61,11 +57,6 @@ export function MonsterCard({ monster }: MonsterCardProps) {
           <section>
             <h3>Comportamento em combate</h3>
             <p>{monster.combate}</p>
-          </section>
-
-          <section>
-            <h3>Minhas anotações</h3>
-            <p className="monster-notes">{notas}</p>
           </section>
         </div>
       </div>
