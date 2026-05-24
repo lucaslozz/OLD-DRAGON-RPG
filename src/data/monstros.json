@@ -40,5 +40,26 @@
       "Sem muitas informações no momento"
     ],
     "combate": "Atacam em grupos."
+  },
+  {
+    "numero": 3,
+    "nome": "Urso-Coruja",
+    "nome_curto": "Urso-Coruja",
+    "imagem": "images/urso-coruja.png",
+    "flavor": "Com o corpo forte de um urso e a cabeça de uma coruja, este predador vive nas florestas e ataca tudo o que encontrar.",
+    "pv": 25,
+    "fraquezas": [
+      "Sem imunidades especiais"
+    ],
+    "habilidades": [
+      "Sem muitas informações no momento"
+    ],
+    "onde_encontrar": [
+      "Florestas"
+    ],
+    "combate": "Atacam entre as árvores. Garras e mordida. Lutam até a morte.",
+    "informacoes_especiais": [
+      "Seus ovos são muito valiosos"
+    ]
   }
 ]

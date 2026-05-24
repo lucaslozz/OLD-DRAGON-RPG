@@ -58,6 +58,14 @@ export function MonsterCard({ monster }: MonsterCardProps) {
             <h3>Comportamento em combate</h3>
             <p>{monster.combate}</p>
           </section>
+
+          {monster.informacoes_especiais &&
+            monster.informacoes_especiais.length > 0 && (
+              <section>
+                <h3>Informações especiais</h3>
+                <BulletList items={monster.informacoes_especiais} />
+              </section>
+            )}
         </div>
       </div>
     </article>
