@@ -1,0 +1,30 @@
+[
+  {
+    "numero": 1,
+    "nome": "Licantropo — Homem-Lobo (Lobisomem)",
+    "nome_curto": "Homem-Lobo",
+    "imagem": "/images/lobisomem.png",
+    "flavor": "Também conhecidos como Lobisomem, são de longe os Licantropos mais comuns e ferozes conhecidos.",
+    "pv": 20,
+    "fraquezas": [
+      "Imune a armas não mágicas quando transformado",
+      "Armas mágicas, magia e prata causam dano normal",
+      "Evita armaduras que impeçam a transformação",
+      "Licantropia pode ser curada com Curar Doenças ou morte do licantropo causador"
+    ],
+    "habilidades": [
+      "Convocar 1d3 lobos (chegam em 1d4 rodadas; moral dos lobos = 9)",
+      "Transformação: 1 rodada (humana → monstruosa → animal)",
+      "Ao morrer, reverte sempre à forma humana"
+    ],
+    "onde_encontrar": [
+      "Habitat: qualquer região",
+      "Colinas (2º–5º nível): encontro na tabela de colinas",
+      "Florestas: grandes bandos (alcateia)",
+      "Cidades: becos escuros, em grupos menores",
+      "Rivais conhecidos como Homobos (lobos que viram homens)"
+    ],
+    "combate": "Atacam em grupos como alcateia. Recuam se em desvantagem. Os urbanos preferem emboscadas em becos.",
+    "notas_jogador": ""
+  }
+]

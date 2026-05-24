@@ -1,0 +1,167 @@
+:root {
+  color: #1a1a1a;
+  background: #faf7f2;
+  font-family: Georgia, "Times New Roman", serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #faf7f2;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 3rem;
+}
+
+.site-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #c4b5a5;
+}
+
+.site-eyebrow {
+  margin: 0 0 0.5rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #5c4033;
+}
+
+.site-header h1 {
+  margin: 0 0 0.75rem;
+  font-size: 2rem;
+  color: #2c1810;
+}
+
+.site-description,
+.site-count {
+  margin: 0.25rem 0;
+  color: #5c4033;
+  font-size: 0.95rem;
+}
+
+.monster-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.monster-card {
+  border: 1px solid #8b7355;
+  border-radius: 4px;
+  padding: 1.5rem;
+  background: #fffdf9;
+  box-shadow: 0 2px 8px rgba(44, 24, 16, 0.06);
+}
+
+.monster-title {
+  margin: 0 0 1.25rem;
+  font-size: 1.25rem;
+  color: #3d2314;
+  border-bottom: 1px solid #e8ddd4;
+  padding-bottom: 0.5rem;
+}
+
+.monster-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.monster-column-left {
+  padding-right: 1.25rem;
+  border-right: 1px solid #c4b5a5;
+}
+
+.monster-column-right {
+  padding-left: 1.25rem;
+}
+
+.monster-image {
+  display: block;
+  width: 100%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+  border: 1px solid #e8ddd4;
+}
+
+.monster-flavor {
+  margin: 0 0 0.75rem;
+  font-style: italic;
+  color: #4a3728;
+  font-size: 0.9rem;
+}
+
+.monster-pv {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+}
+
+.monster-card section {
+  margin-bottom: 1rem;
+}
+
+.monster-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 0.85rem;
+  color: #6b3a2a;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.monster-card p,
+.bullet-list {
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.bullet-list {
+  padding-left: 1.1rem;
+}
+
+.bullet-list li {
+  margin-bottom: 0.25rem;
+}
+
+.monster-notes {
+  color: #5c4033;
+  font-style: italic;
+}
+
+@media (max-width: 720px) {
+  .monster-columns {
+    grid-template-columns: 1fr;
+  }
+
+  .monster-column-left {
+    padding-right: 0;
+    border-right: none;
+    border-bottom: 1px solid #c4b5a5;
+    padding-bottom: 1.25rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .monster-column-right {
+    padding-left: 0;
+  }
+}
