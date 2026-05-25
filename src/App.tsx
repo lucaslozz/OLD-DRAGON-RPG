@@ -1,27 +1,36 @@
-import { MonsterCard } from "./components/MonsterCard";
-import monstros from "./data/monstros.json";
-import type { Monster } from "./types/monster";
-
-const monsters = monstros as Monster[];
+import { Navigate, Route, Routes } from "react-router-dom";
+import { Sidebar, useSidebarState } from "./components/Sidebar";
+import { CompendioPage } from "./pages/CompendioPage";
+import { HistoriaPage } from "./pages/HistoriaPage";
+import { routes } from "./router";
 
 export default function App() {
-  return (
-    <div className="app">
-      <header className="site-header">
-        <p className="site-eyebrow">Old Dragon 2 — Campanha pessoal</p>
-        <h1>Compêndio de Monstros</h1>
-        <p className="site-description">
-          Registro dos adversários já enfrentados, com fraquezas, locais e
-          anotações de mesa.
-        </p>
-        <p className="site-count">{monsters.length} entradas registradas</p>
-      </header>
+  const { collapsed, menuActive, toggleCollapsed, toggleMenu } =
+    useSidebarState();
 
-      <main className="monster-list">
-        {monsters.map((monster) => (
-          <MonsterCard key={monster.numero} monster={monster} />
-        ))}
-      </main>
+  const shellClass = [
+    "app-shell",
+    collapsed ? "sidebar-collapsed" : "",
+    menuActive ? "menu-active" : "",
+  ]
+    .filter(Boolean)
+    .join(" ");
+
+  return (
+    <div className={shellClass}>
+      <Sidebar
+        collapsed={collapsed}
+        menuActive={menuActive}
+        onToggleCollapsed={toggleCollapsed}
+        onToggleMenu={toggleMenu}
+      />
+      <div className="app-main">
+        <Routes>
+          <Route path="/" element={<Navigate to={routes.compendio} replace />} />
+          <Route path={routes.compendio} element={<CompendioPage />} />
+          <Route path={routes.historia} element={<HistoriaPage />} />
+        </Routes>
+      </div>
     </div>
   );
 }
