@@ -106,6 +106,28 @@
   },
   {
     "numero": 6,
+    "nome": "Troll",
+    "nome_curto": "Troll",
+    "imagem": "images/troll.png",
+    "flavor": "Criatura colossal formada por pedra e madeira, muito diferente do troll clássico dos bestiários.",
+    "pv": 35,
+    "fraquezas": [
+      "Fraqueza a fogo",
+      "Se estiver queimando, não consegue se regenerar"
+    ],
+    "habilidades": [
+      "Regenera 1 PV após cada rodada"
+    ],
+    "onde_encontrar": [
+      "Enfrentamos um no pantano ao norte da vila Aoroke."
+    ],
+    "combate": "Sem muitas informações no momento",
+    "informacoes_especiais": [
+      "O sangue de troll é um dos ingredientes para criar a poção Intensificar Magias."
+    ]
+  },
+  {
+    "numero": 7,
     "nome": "Urso-Coruja",
     "nome_curto": "Urso-Coruja",
     "imagem": "images/urso-coruja.png",
