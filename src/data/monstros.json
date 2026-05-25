@@ -84,6 +84,28 @@
   },
   {
     "numero": 5,
+    "nome": "Sapo humanoide",
+    "nome_curto": "Sapo humanoide",
+    "imagem": "images/sapo-humanoide.png",
+    "flavor": "Criatura anfíbia bípede, com aparência de sapo em forma humanoide.",
+    "pv": 12,
+    "fraquezas": [
+      "Sem imunidades especiais",
+      "Sem muitas informações no momento"
+    ],
+    "habilidades": [
+      "Cuspe petrificante"
+    ],
+    "onde_encontrar": [
+      "Ao norte da vila Aoroke há um moinho e perto há um pantano onde é possível encontrar tais criaturas."
+    ],
+    "combate": "Ataca à distância com cuspe petrificante.",
+    "informacoes_especiais": [
+      "É possível extrair o líquido petrificante para imbuir armas ou criar poções com efeito de 1d4 + 2."
+    ]
+  },
+  {
+    "numero": 6,
     "nome": "Urso-Coruja",
     "nome_curto": "Urso-Coruja",
     "imagem": "images/urso-coruja.png",
