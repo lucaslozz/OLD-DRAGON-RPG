@@ -1,6 +1,28 @@
 [
   {
     "numero": 1,
+    "nome": "Adepto — Culto Tussantar",
+    "nome_curto": "Adepto — Culto Tussantar",
+    "imagem": "images/adepto.png",
+    "flavor": "Membro mais experiente do culto de Tussantar. Apóstatas fanáticos que dominam rituais obscuros e lideram os ocultistas menores.",
+    "pv": 15,
+    "fraquezas": [
+      "Humanoide sem imunidades especiais",
+      "Sem resistência a tipos de dano específicos"
+    ],
+    "habilidades": [
+      "Escuridão",
+      "Santuário",
+      "Causar Ferimentos (em substituição às magias acima)",
+      "Talvez existam mais habilidades, mas não temos conhecimento no momento"
+    ],
+    "onde_encontrar": [
+      "Sem muitas informações no momento"
+    ],
+    "combate": "Atacam em grupos. Geralmente com vários cultistas."
+  },
+  {
+    "numero": 2,
     "nome": "Licantropo — Homem-Lobo (Lobisomem)",
     "nome_curto": "Homem-Lobo",
     "imagem": "images/lobisomem.png",
@@ -21,7 +43,26 @@
     "combate": "Ferozes, possuem ataques de garras e mordida."
   },
   {
-    "numero": 2,
+    "numero": 3,
+    "nome": "Lobo",
+    "nome_curto": "Lobo",
+    "imagem": "images/lobo.png",
+    "flavor": "Canídeos que vivem em geleiras, montanhas e florestas geladas. Vivem em grupos e fazem disso sua principal força de combate.",
+    "pv": 12,
+    "fraquezas": [
+      "Sem imunidades especiais"
+    ],
+    "habilidades": [
+      "Sem muitas informações no momento"
+    ],
+    "onde_encontrar": [
+      "Florestas",
+      "Em bandos junto a lobisomens"
+    ],
+    "combate": "Atacam em grupos. Mordida."
+  },
+  {
+    "numero": 4,
     "nome": "Ocultista — Culto Tussantar",
     "nome_curto": "Ocultista — Culto Tussantar",
     "imagem": "images/ocultista.png",
@@ -42,7 +83,7 @@
     "combate": "Atacam em grupos."
   },
   {
-    "numero": 3,
+    "numero": 5,
     "nome": "Urso-Coruja",
     "nome_curto": "Urso-Coruja",
     "imagem": "images/urso-coruja.png",
